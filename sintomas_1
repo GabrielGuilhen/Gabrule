@@ -1,0 +1,47 @@
+programa
+{
+	
+	funcao inicio()
+	{
+	     logico coriza, tosse, febre, dor_de_garganta, dificuldade_para_respirar
+	     inteiro numero_sintomas = 0
+	     
+		escreva("Você esta com coriza? ")
+		leia(coriza)
+
+		se(coriza == verdadeiro){
+			numero_sintomas = numero_sintomas + 1
+		}
+		
+		escreva("Você esta com tosse? ")
+		leia(tosse)
+
+		se(tosse == verdadeiro){
+			numero_sintomas = numero_sintomas + 1
+		}
+
+		
+		escreva("Você esta com febre? ")
+		leia (febre)
+
+		se(febre == verdadeiro){
+			numero_sintomas = numero_sintomas + 1
+		
+
+		escreva("Você esta com dor de garganta? ")
+		leia(dor_de_garganta)
+		se(dor_de_garganta == verdadeiro){
+			numero_sintomas = numero_sintomas + 1
+			
+		escreva("Você esta com dificuldade de respirar? ")
+		leia(dificuldade_para_respirar)
+		se( dificuldade_para_respirar == verdadeiro){
+			numero_sintomas = numero_sintomas + 1
+		
+		se( coriza, tosse, febre, dor_de_garganta, dificuldade_para_respirar >= 4 ){
+			escreva(" Você está com sintomas de Covid-19!!! ")
+		}
+		
+          
+	}
+}
