@@ -1,0 +1,18 @@
+programa
+{
+	inclua biblioteca Texto --> tx
+	
+	funcao inicio()
+	{
+		cadeia senha
+		inteiro caracteres_da_senha
+		escreva("informe uma senha: ")
+		leia(senha)
+		caracteres_da_senha = tx.numero_caracteres(senha)
+		se(caracteres_da_senha >= 6 )
+  
+		
+          escreva( "A senha informada têm mais que 6 caracteres")
+		
+	}
+}
