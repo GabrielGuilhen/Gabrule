@@ -1,0 +1,27 @@
+programa
+{
+	
+	funcao inicio()
+	{
+	     cadeia nome
+	     inteiro peso
+		escreva("Diga o nome do seu cachorro: ")
+		leia(nome)
+		escreva("Diga o peso do seu cachorro: ")
+		leia(peso)
+		
+		se(peso <= 2){
+		escreva("Seu cachorro late fino. au au au ")
+	}
+
+		se(peso > 2 e peso < 11){
+		escreva("Seu cachorro têm um belo latido ")
+}
+
+		se(peso > 9){
+		escreva("Seu cachorro late grosso: woof woof. ")
+		}
+		
+		
+	}
+}
