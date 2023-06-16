@@ -1,0 +1,29 @@
+programa
+{
+	
+	funcao inicio()
+	{
+	     inteiro resposta 
+	     inteiro soma = 0
+	     escreva("Digite o primeiro numero: ")
+	     leia(resposta)
+	     soma = soma + resposta
+	     
+		enquanto(resposta != 0){
+			escreva("Digite outro numero: ")
+			leia(resposta)
+			soma = soma + resposta
+			
+				
+				
+				
+			}
+			escreva("A soma deu: ", soma)
+		}
+
+
+
+
+		
+	
+}
