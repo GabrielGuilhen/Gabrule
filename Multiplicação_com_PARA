@@ -1,0 +1,15 @@
+programa
+{
+	
+	funcao inicio()
+	{
+	     inteiro N
+		escreva("Defina um numero para N: ")
+		leia(N)
+		para(inteiro i = 0; i <= 10; i++){
+			escreva(i,"*",N, "=", i*N,"\n")
+			
+			
+		}
+	}
+}
