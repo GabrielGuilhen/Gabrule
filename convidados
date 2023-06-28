@@ -1,0 +1,30 @@
+programa
+{
+	
+	funcao inicio()
+	{
+	   cadeia convidados[5]
+	   cadeia convidado_procurado
+
+	   
+	   convidados[0] = "J. Emanuel"
+	   convidados[1] = "J. Antonio"
+ 	   convidados[2] = "J. Gabriel"
+	   convidados[3] = "J. Molas"
+	   convidados[4] = "J. Guarani"
+
+	   escreva("buscar: ")
+	   leia(convidado_procurado)
+
+	   para(inteiro i = 0; i<5; i++){
+	   	se(convidados[i] == convidado_procurado){
+	   		escreva("o convidado", convidados[i], "está na lista\n")
+	   		pare
+	   	}
+	   	
+	   }
+	   escreva("indo para o proximo... \n")
+	   
+	}
+}
+
